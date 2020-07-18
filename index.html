@@ -1,0 +1,94 @@
+<!DOCTYPE html lang="pt-br">
+<html>
+    <head>
+        <title>minha página</title>
+        <meta charset="utf-8">
+        <link rel = "stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <link rel = "stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg margem">
+            <a class="navbar-brand" href="#">
+                <img src="img/fish-in-a-aquarium-3905047.jpg" width="200" height="100">
+            </a>
+            <div class="collapse navbar-collapse">
+
+                <ul class="navbar-nav active">
+                    <li class="nav-item">
+                         <a class="nav-link" href="#somos">Quem somos</a> <!--o html deixa os li um embaixo do outro-->
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#parça">Parceiros</a> <!--o bootstrap com as classes deixa os li um do lad do outro-->
+                   </li>
+                   <li class="nav-item active">
+                        <a class="nav-link" href="#serv">Servicos</a> 
+                   </li>
+                </ul>
+
+            </div>
+        </nav>
+
+        <section id="somos">
+            <div class="container-fluid quem-somos  text-center margem"><!--class = container já escreve o texto do paragrafo com margem-->
+                        <!--container-fluid preenche a linha interira; container somente preenche só do texto para frente-->                
+              <h3 class="margem">Quem somos</h3><!--este container só pega a cor do teste para frente -->
+              <img src="img/photo-of-fishes-underwater-3311089.jpg" class="rounded-circle" width="400" height="200"><!--rounded-circle = imagem arredondada se w = h -->
+                                                                                                                    <!--ou eliptica se w <> h -->
+              <h3>Somos uma equipe de mergulho</h3>                                                                                                      
+            </div>            
+        </section>
+
+        <section id="parça">
+            <div class="container-fluid parceiros text-center margem"><!--class = container já escreve o texto do paragrafo com margem-->
+                        <!--container-fluid preenche a linha interira; container somente preenche só do texto para frente-->                
+              <h3 class="margem">Parceiros</h3><!--este container só pega a cor do teste para frente -->
+              <div class="row"> 
+                  <div class="col-md-4"><!--md, lg = tamanho -->
+                        <img src="img/black-dolphin-in-body-of-water-3439576.jpg" class="rounded-circle" width="100%"><!--rounded-circle = imagem arredondada se w = h -->
+                        <!--ou eliptica se w <> h -->
+                  </div>
+                  <div class="col-md-4"><!--md, lg = tamanho -->
+                    <img src="img/black-dolphin-in-body-of-water-3439576.jpg" class="rounded-circle" width="100%"><!--rounded-circle = imagem arredondada se w = h -->
+                    <!--ou eliptica se w <> h -->
+                  </div>
+                  <div class="col-md-4"><!--md, lg = tamanho -->
+                    <img src="img/black-dolphin-in-body-of-water-3439576.jpg" class="rounded-circle" width="100%"><!--rounded-circle = imagem arredondada se w = h -->
+                    <!--ou eliptica se w <> h -->
+                  </div>
+              </div>              
+              <h3>Peixes</h3>                                                                                                      
+            </div>            
+        </section>
+
+        <section id="serv">
+            <div class="container-fluid servicos text-center margem"><!--class = container já escreve o texto do paragrafo com margem-->
+                        <!--container-fluid preenche a linha interira; container somente preenche só do texto para frente-->                
+              <h3 class="margem">Servicos</h3><!--este container só pega a cor do teste para frente -->
+              <div class="row"> 
+                  <div class="col-lg-4"><!--md, lg = tamanho -->
+                        <p>imagem_01</p><!--texto sobre a imagem -->
+                        <img src="img/photo-of-dolphins-underwater-4673375.jpg" class="rounded-circle " width="50%"><!--rounded-circle = imagem arredondada se w = h -->
+                        <!--ou eliptica se w <> h -->
+                  </div>
+                  <div class="col-lg-4"><!--md, lg = tamanho -->
+                    <p>imagem_02</p><!--texto sobre a imagem -->
+                    <img src="img/photo-of-dolphins-underwater-4673375.jpg" class="rounded-circle " width="50%"><!--rounded-circle = imagem arredondada se w = h -->
+                    <!--ou eliptica se w <> h -->
+                  </div>
+                  <div class="col-lg-4"><!--md, lg = tamanho -->
+                    <p>imagem_03</p><!--texto sobre a imagem -->
+                    <img src="img/photo-of-dolphins-underwater-4673375.jpg" class="rounded-circle " width="50%"><!--rounded-circle = imagem arredondada se w = h -->
+                    <!--ou eliptica se w <> h -->
+                  </div>                  
+              </div>              
+              <h3>anti-stress</h3>                                                                                                      
+            </div>            
+        </section>
+
+        <footer class="container-fluid text-center ft-ft margem">
+            <p>desenvolvido por Willians</p>
+        </footer>
+
+
+    </body>        
+</html>
